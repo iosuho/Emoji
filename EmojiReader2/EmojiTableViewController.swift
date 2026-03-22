@@ -18,7 +18,7 @@ class EmojiTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Emoji Reader"
+        self.title = "Я ТВОЙ РОТ ЕБАЛ ОСЁЛ"
         self.navigationItem.leftBarButtonItem = self.editButtonItem
     }
     
