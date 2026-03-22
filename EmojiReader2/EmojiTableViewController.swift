@@ -10,9 +10,9 @@ import UIKit
 class EmojiTableViewController: UITableViewController {
     
     var objects = [
-        Emoji(emoji: "🤡", name: "Vova Clown", description: "Lets clown each other", isFavorite: false),
-        Emoji(emoji: "🤠", name: "Artem Cowboy", description: "Lets play with cows together", isFavorite: false),
-        Emoji(emoji: "💀", name: "Dead clown Dimas", description: "Lets die right now", isFavorite: false)
+        Emoji(emoji: "🤡", name: "Vova Clown", description: "АХАХАХХАХАХАХАХА", isFavorite: false),
+        Emoji(emoji: "🤠", name: "Artem Cowboy", description: "Пошел нахуй долбаеб", isFavorite: false),
+        Emoji(emoji: "💀", name: "Dead clown Dimas", description: "Он слушал фараона и умер +rep", isFavorite: false)
     ]
     
     override func viewDidLoad() {
