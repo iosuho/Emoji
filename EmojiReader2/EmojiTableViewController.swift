@@ -10,8 +10,8 @@ import UIKit
 class EmojiTableViewController: UITableViewController {
     
     var objects = [
-        Emoji(emoji: "🤡", name: "Vova Clown", description: "АХАХАХХАХАХАХАХА", isFavorite: false),
-        Emoji(emoji: "🤠", name: "Artem Cowboy", description: "Пошел нахуй долбаеб", isFavorite: false),
+        Emoji(emoji: "🤡", name: "Vova Clown", description: "Пошел нахуй долбаеб, еще раз будешь обзываться я тебе ебало снесу", isFavorite: false),
+        Emoji(emoji: "🤠", name: "Artem Cowboy", description: "Норм чел", isFavorite: false),
         Emoji(emoji: "💀", name: "Dead clown Dimas", description: "Он слушал фараона и умер +rep", isFavorite: false)
     ]
     
