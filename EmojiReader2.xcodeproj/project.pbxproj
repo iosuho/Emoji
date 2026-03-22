@@ -13,6 +13,10 @@
 		14308B0C2C60EE9C003B8778 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 14308B0B2C60EE9C003B8778 /* Base */; };
 		14308B0E2C60EE9D003B8778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14308B0D2C60EE9D003B8778 /* Assets.xcassets */; };
 		14308B112C60EE9D003B8778 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 14308B102C60EE9D003B8778 /* Base */; };
+		14308B1B2C60F883003B8778 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308B1A2C60F883003B8778 /* EmojiTableViewController.swift */; };
+		14308B1D2C6100CA003B8778 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14308B1C2C6100CA003B8778 /* EmojiTableViewCell.swift */; };
+		147105132C62335200442123 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147105122C62335200442123 /* EmojiModel.swift */; };
+		14E2BF572C6E40D30036D1B2 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E2BF562C6E40D30036D1B2 /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		14308B0D2C60EE9D003B8778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14308B102C60EE9D003B8778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14308B122C60EE9D003B8778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14308B1A2C60F883003B8778 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		14308B1C2C6100CA003B8778 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		147105122C62335200442123 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		14E2BF562C6E40D30036D1B2 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				14308B042C60EE9C003B8778 /* AppDelegate.swift */,
 				14308B062C60EE9C003B8778 /* SceneDelegate.swift */,
 				14308B082C60EE9C003B8778 /* ViewController.swift */,
+				14308B1A2C60F883003B8778 /* EmojiTableViewController.swift */,
+				147105122C62335200442123 /* EmojiModel.swift */,
+				14308B1C2C6100CA003B8778 /* EmojiTableViewCell.swift */,
+				14E2BF562C6E40D30036D1B2 /* NewEmojiTableViewController.swift */,
 				14308B0A2C60EE9C003B8778 /* Main.storyboard */,
 				14308B0D2C60EE9D003B8778 /* Assets.xcassets */,
 				14308B0F2C60EE9D003B8778 /* LaunchScreen.storyboard */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14308B1B2C60F883003B8778 /* EmojiTableViewController.swift in Sources */,
 				14308B092C60EE9C003B8778 /* ViewController.swift in Sources */,
+				147105132C62335200442123 /* EmojiModel.swift in Sources */,
+				14308B1D2C6100CA003B8778 /* EmojiTableViewCell.swift in Sources */,
+				14E2BF572C6E40D30036D1B2 /* NewEmojiTableViewController.swift in Sources */,
 				14308B052C60EE9C003B8778 /* AppDelegate.swift in Sources */,
 				14308B072C60EE9C003B8778 /* SceneDelegate.swift in Sources */,
 			);
@@ -307,9 +323,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-------------------.EmojiReader2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +355,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-------------------.EmojiReader2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
